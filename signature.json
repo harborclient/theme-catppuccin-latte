@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "pluginId": "com.harborclient.plugins.catppuccin-latte",
+  "pluginVersion": "1.0.0",
+  "algorithm": "Ed25519",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "88ad380decbd9a1a6659c573833c96932dab32e7e0e88fa3353c98f758cd10b3"
+    },
+    {
+      "path": "dist/renderer.js",
+      "sha256": "6f0c4e6dd2b5b547f2afb0ee642a6d9ef10b3b1dd0c467244f52cce1af2add1e"
+    },
+    {
+      "path": "dist/theme.css",
+      "sha256": "6a1f1d18459ad1afdf0cac87551da0549acd0f24468d05a56acb2254ba2c947a"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "bfb32e4049110a857c7e8f803bed0719ff14b4f5a32aa095def0ad8246bf3c04"
+    },
+    {
+      "path": "package.json",
+      "sha256": "d79e993f8d5e1eb9969c41605ddcc7b2c0d6341c7a8aa8840017601d30aed181"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "sha256": "f8629cd493e0012578ba994879f9c8cf847e4970bfe091389ebe434661ab8d54"
+    },
+    {
+      "path": "README.md",
+      "sha256": "a342ab0a7bf66182b4caf55545cdc2ef59f40740d1b0a129cbbd3f2ed309807b"
+    },
+    {
+      "path": "screenshot.png",
+      "sha256": "9916d71c6a591f89819370153be25a949f0ebac54c7160d2d852d38338675a4a"
+    },
+    {
+      "path": "scripts/plugin-sign.ts",
+      "sha256": "dc21f6daa2c0d454b53cc719524f41669c1f1a0319b80b50dc1f0b3fa3f796e3"
+    },
+    {
+      "path": "scripts/plugin-verify.ts",
+      "sha256": "555f897860b881817f6aa66a933a38fb31388b461b8fa1e9e9b6126b67bc18e0"
+    },
+    {
+      "path": "scripts/render-screenshot.sh",
+      "sha256": "d2fe525f530446f4f53add2abcfed2ec7f11253a7d128608781ccd18487fbb25"
+    },
+    {
+      "path": "scripts/screenshot-marketing.html",
+      "sha256": "d20e24072830d95defd40678dccf718438114e9f7a1f63c7f89918676e516699"
+    },
+    {
+      "path": "src/renderer.tsx",
+      "sha256": "11e78613f32e5d3a77eca2e01d75e1dcdf0c5c2dd82b07a7378e0cb662ee64fe"
+    },
+    {
+      "path": "src/theme.css",
+      "sha256": "6a1f1d18459ad1afdf0cac87551da0549acd0f24468d05a56acb2254ba2c947a"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "dced0ea880bec6222ac9856d3d2ce11b91fd874298f3129c8b5944606dc73668"
+    }
+  ],
+  "keyId": "harborclient-official",
+  "signature": "H3QrWKuUTnsNdeXGWyu8WLwsIJI+8DzM/g3x+a3QgpPO1lfhw+CoAUq16sg5QAHofnq4q9lxaOr8AvyGsQnaDA=="
+}

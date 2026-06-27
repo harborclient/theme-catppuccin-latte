@@ -1,0 +1,23 @@
+{
+  "id": "com.harborclient.plugins.catppuccin-latte",
+  "name": "Catppuccin Latte Theme",
+  "version": "1.0.0",
+  "author": "HarborClient",
+  "description": "README.md",
+  "screenshots": [
+    {
+      "path": "screenshot.png",
+      "caption": "Catppuccin Latte in Settings → General → Appearance"
+    }
+  ],
+  "homepage": "https://github.com/harborclient/plugin-catppuccin-latte",
+  "bugs": {
+    "url": "https://github.com/harborclient/plugin-catppuccin-latte/issues"
+  },
+  "engines": { "harborclient": ">=1.8.0" },
+  "renderer": "dist/renderer.js",
+  "permissions": ["ui"],
+  "contributes": {
+    "themes": [{ "id": "latte", "title": "Catppuccin Latte", "type": "light" }]
+  }
+}

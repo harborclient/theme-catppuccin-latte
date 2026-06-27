@@ -1,0 +1,107 @@
+/**
+ * Catppuccin Latte theme stylesheet scoped to the active plugin theme attribute.
+ *
+ * Uses selectors beyond the auto-generated :root token block so the theme can
+ * customize scrollbars, focus rings, pastel backgrounds, and extended tokens.
+ */
+:root[data-theme="plugin-com.harborclient.plugins.catppuccin-latte-latte"] {
+  color-scheme: light;
+
+  --mac-danger-light: #e64553;
+  --mac-info: #1e66f5;
+  --mac-method-get: #40a02b;
+  --mac-method-post: #1e66f5;
+  --mac-method-put: #df8e1d;
+  --mac-method-patch: #8839ef;
+  --mac-method-delete: #d20f39;
+  --mac-method-head: #7c7f93;
+  --mac-method-options: #7c7f93;
+}
+
+/**
+ * Soft pastel gradient on the app root for Catppuccin Latte's signature look.
+ */
+:root[data-theme="plugin-com.harborclient.plugins.catppuccin-latte-latte"]
+  #root {
+  background: radial-gradient(
+      ellipse 80% 50% at 15% 0%,
+      rgba(136, 57, 239, 0.1) 0%,
+      transparent 55%
+    ),
+    radial-gradient(
+      ellipse 60% 40% at 90% 100%,
+      rgba(30, 102, 245, 0.08) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse 50% 35% at 50% 50%,
+      rgba(114, 135, 253, 0.06) 0%,
+      transparent 60%
+    ),
+    linear-gradient(160deg, #eff1f5 0%, #e6e9ef 42%, #eff1f5 100%);
+  min-height: 100vh;
+}
+
+/**
+ * Light scrollbars for sidebar and editor panes.
+ */
+:root[data-theme="plugin-com.harborclient.plugins.catppuccin-latte-latte"]
+  ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+:root[data-theme="plugin-com.harborclient.plugins.catppuccin-latte-latte"]
+  ::-webkit-scrollbar-track {
+  background: #e6e9ef;
+}
+
+:root[data-theme="plugin-com.harborclient.plugins.catppuccin-latte-latte"]
+  ::-webkit-scrollbar-thumb {
+  background: #bcc0cc;
+  border-radius: 5px;
+  border: 2px solid #e6e9ef;
+}
+
+:root[data-theme="plugin-com.harborclient.plugins.catppuccin-latte-latte"]
+  ::-webkit-scrollbar-thumb:hover {
+  background: #8839ef;
+}
+
+/**
+ * Mauve focus rings on interactive controls.
+ */
+:root[data-theme="plugin-com.harborclient.plugins.catppuccin-latte-latte"]
+  input:focus-visible,
+:root[data-theme="plugin-com.harborclient.plugins.catppuccin-latte-latte"]
+  select:focus-visible,
+:root[data-theme="plugin-com.harborclient.plugins.catppuccin-latte-latte"]
+  textarea:focus-visible,
+:root[data-theme="plugin-com.harborclient.plugins.catppuccin-latte-latte"]
+  button:focus-visible,
+:root[data-theme="plugin-com.harborclient.plugins.catppuccin-latte-latte"]
+  a:focus-visible,
+:root[data-theme="plugin-com.harborclient.plugins.catppuccin-latte-latte"]
+  [tabindex]:not([tabindex="-1"]):focus-visible,
+:root[data-theme="plugin-com.harborclient.plugins.catppuccin-latte-latte"]
+  [role="button"]:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(136, 57, 239, 0.35);
+}
+
+/**
+ * Native select dropdown options match Latte surface colors.
+ */
+:root[data-theme="plugin-com.harborclient.plugins.catppuccin-latte-latte"]
+  select
+  option {
+  background-color: #eff1f5;
+  color: #4c4f69;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root[data-theme="plugin-com.harborclient.plugins.catppuccin-latte-latte"]
+    #root {
+    background: #eff1f5;
+  }
+}
