@@ -2,6 +2,9 @@
 
 Adds **Catppuccin Latte** to Settings → General → Appearance with both token overrides and a bundled stylesheet.
 
+![Screenshot](screenshot.png)
+
+
 ## Permissions
 
 - `ui` — theme registration
