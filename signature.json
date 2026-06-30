@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "pluginId": "com.harborclient.plugins.catppuccin-latte",
-  "pluginVersion": "1.0.1",
+  "pluginVersion": "1.0.2",
   "algorithm": "Ed25519",
   "files": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "path": "dist/renderer.js",
-      "sha256": "6f0c4e6dd2b5b547f2afb0ee642a6d9ef10b3b1dd0c467244f52cce1af2add1e"
+      "sha256": "3ad4a0b814a4ff929b266865682ce14d6a961c1b02f0b47ba94948d34f2bf0fd"
     },
     {
       "path": "dist/theme.css",
@@ -18,15 +18,15 @@
     },
     {
       "path": "manifest.json",
-      "sha256": "e49c91ce045dd94d01226d6e66bea39fa3cc0efbc63cd95cc115e55fe2956f1b"
+      "sha256": "10bee54af56a9f266413d7afbabf75b001620b97b1b4f3da6a735f2d57aed7e2"
     },
     {
       "path": "package.json",
-      "sha256": "e03609a12edcfe288888022cfb63ecec58405f1571f6f2230098f67300b053f8"
+      "sha256": "624b61b3fcf83fbe7839b40b43551162e9aafc87b0135135cb898004705d6d05"
     },
     {
       "path": "pnpm-lock.yaml",
-      "sha256": "9b7ee16b5557abcac40b37b8e35794e8e7ae8a8d1ce92fd677dead6d4275376b"
+      "sha256": "d761af9eb8f77808546420b2d2b00beec7f73020bc060d2136dea61133eb03f1"
     },
     {
       "path": "README.md",
@@ -35,6 +35,10 @@
     {
       "path": "screenshot.png",
       "sha256": "9916d71c6a591f89819370153be25a949f0ebac54c7160d2d852d38338675a4a"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "sha256": "c8cce2a4036c8075113f9dfa037a427e2900bfbe2246d085eb10a5c19437032d"
     },
     {
       "path": "scripts/plugin-sign.ts",
@@ -54,7 +58,7 @@
     },
     {
       "path": "src/renderer.tsx",
-      "sha256": "11e78613f32e5d3a77eca2e01d75e1dcdf0c5c2dd82b07a7378e0cb662ee64fe"
+      "sha256": "2b661012f4743f58f56c8e1de18de3890c93b89107b594715de2b3ac9ecf3c7b"
     },
     {
       "path": "src/theme.css",
@@ -62,8 +66,8 @@
     },
     {
       "path": "tsconfig.json",
-      "sha256": "dced0ea880bec6222ac9856d3d2ce11b91fd874298f3129c8b5944606dc73668"
+      "sha256": "663c22f2cb634722bc1c1191c4808b53c89d930979d4936cb6d0a539f4476ac9"
     }
   ],
-  "signature": "JOQgpF3bJIfeTSP+5peEDOWyT/bAeQJPcmcHxltH6cezCkKuNyvsZChbzVQbskynKqsf3OI5fiaynEapLtwFBg=="
+  "signature": "G6LGI+N9mYxIaL+Jd/+2haul5ZTNaS1JGQnPh/QDROfM/hrxn/J1VMOI9jf/ugHn/jb6q65MDTxvWzou8JE8BA=="
 }

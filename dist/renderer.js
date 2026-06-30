@@ -1,4 +1,4 @@
-// node_modules/.pnpm/@harborclient+sdk@0.7.0_@babel+runtime@8.0.0_@codemirror+lint@6.9.7_@codemirror+search@_0434f38fced7bbbb661910cc2ed4015b/node_modules/@harborclient/sdk/dist/runtime/index.js
+// node_modules/.pnpm/@harborclient+sdk@1.0.0_@babel+runtime@8.0.0_@codemirror+lint@6.9.7_@codemirror+search@_4a97bca4b8240b001fbe9e82dfd8384f/node_modules/@harborclient/sdk/dist/runtime/index.js
 function registerTheme(hc, theme) {
   const disposable = hc.themes.register(theme);
   hc.subscriptions.push(disposable);
