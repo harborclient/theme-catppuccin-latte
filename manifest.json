@@ -1,11 +1,13 @@
 {
   "id": "com.harborclient.plugins.catppuccin-latte",
   "name": "Catppuccin Latte Theme",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "HarborClient",
   "description": "README.md",
   "summary": "A Catppuccin Latte light theme with pastel gradients, scrollbars, and focus rings via stylesheet.",
-  "categories": ["themes"],
+  "categories": [
+    "themes"
+  ],
   "screenshots": [
     "https://raw.githubusercontent.com/harborclient/plugin-catppuccin-latte/main/screenshot.png"
   ],
@@ -13,10 +15,20 @@
   "bugs": {
     "url": "https://github.com/harborclient/plugin-catppuccin-latte/issues"
   },
-  "engines": { "harborclient": ">=1.9.0" },
+  "engines": {
+    "harborclient": ">=1.9.0"
+  },
   "renderer": "dist/renderer.js",
-  "permissions": ["ui"],
+  "permissions": [
+    "ui"
+  ],
   "contributes": {
-    "themes": [{ "id": "latte", "title": "Catppuccin Latte", "type": "light" }]
+    "themes": [
+      {
+        "id": "latte",
+        "title": "Catppuccin Latte",
+        "type": "light"
+      }
+    ]
   }
 }
