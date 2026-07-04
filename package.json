@@ -1,5 +1,5 @@
 {
-  "name": "@harborclient/them-catppuccin-latte",
+  "name": "@harborclient/theme-catppuccin-latte",
   "type": "module",
   "scripts": {
     "release": "bash scripts/publish.sh",
