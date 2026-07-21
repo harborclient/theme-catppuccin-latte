@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "pluginId": "com.harborclient.plugins.catppuccin-latte",
-  "pluginVersion": "1.1.1",
+  "pluginVersion": "1.1.2",
   "algorithm": "Ed25519",
   "files": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "path": "manifest.json",
-      "sha256": "c2d83a01b0a53a07bee3f69c8ef14fd2a9d6fc95d51fa28c2ca8c274a830f280"
+      "sha256": "1175eeed53f26bbdcdd04e242ad6128c8686e1a414f9dfb302f60d8e3dfdda07"
     },
     {
       "path": "package.json",
@@ -30,7 +30,7 @@
     },
     {
       "path": "screenshot.png",
-      "sha256": "9916d71c6a591f89819370153be25a949f0ebac54c7160d2d852d38338675a4a"
+      "sha256": "fd8ada3feb7115ef383aa53cb24c31e92d94fc9dd38bd22ce97327504ba2c330"
     },
     {
       "path": "scripts/plugin-sign.ts",
@@ -50,5 +50,5 @@
     }
   ],
   "keyId": "com.harborclient.plugins.catppuccin-latte",
-  "signature": "4DwfVgZ/SGREY9FIpn8owKF6O/bksgBGlVluKYA3P0CZx2XsNiEuAkAANgUTvDLPr69/fz14kixeeVlRLHLGAg=="
+  "signature": "Xd74cLd0qHkzS2jl0/hMmvwIqQXcLNynIDNHTg2GAuE29x6vEyhoX/n9rTCR7Ms+zsJWFtJhSs03x/R3Cdp9Aw=="
 }
